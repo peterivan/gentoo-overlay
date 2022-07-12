@@ -6,7 +6,7 @@ inherit eutils desktop xdg-utils
 
 DESCRIPTION="Multi-platform 2D and 3D game engine"
 HOMEPAGE="https://godotengine.org"
-SRC_URI="https://github.com/godotengine/godot/releases/download/${PV}-stable/godot-${PV}-stable.tar.xz"
+SRC_URI="https://downloads.tuxfamily.org/godotengine/${PV}/Godot_v${PV}-stable_x11.64.zip"
 RESTRICT="mirror strip bindist"
 
 LICENSE="MIT"
