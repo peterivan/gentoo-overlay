@@ -27,6 +27,6 @@ src_install() {
     cp -pPR "${S}" "${D}/opt/${MY_PN}"
     fperms 0755 /opt/${MY_PN}
 
-    dosym "../../opt/${MY_PN}/bin/godot" "/usr/bin/${MY_PN}"
-    dosym "../../opt/${MY_PN}/bin/godot" "/usr/bin/godot"
+    dosym "/opt/${MY_PN}/Godot_v${PV}-stable-x11.64" "/usr/bin/${MY_PN}"
+    dosym "/opt/${MY_PN}/Godot_v${PV}-stable-x11.64" "/usr/bin/godot"
 }
