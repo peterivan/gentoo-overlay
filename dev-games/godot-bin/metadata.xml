@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>piip-overlay@gmail.com</email>
+    <name>Peter Ivan</name>
+  </maintainer>
+  <longdescription lang="en">
+    Multi-platform 2D and 3D game engine
+  </longdescription>
+  <upstream>
+    <remote-id type="github">godotengine/godot</remote-id>
+    <bugs-to>Multi-platform 2D and 3D game engine</bugs-to>
+  </upstream>
+</pkgmetadata>

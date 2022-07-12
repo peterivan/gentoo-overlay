@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<repositories version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name>my-overlay</name>
+      <description lang="en">PiiP Gentoo Overlay.</description>
+        <homepage>https://github.com/peterivan/gentoo-overlay</homepage>
+        <owner type="person">
+            <name>Peter Ivan</name>
+            <email>piip-overlay@gmail.com</email>
+        </owner>
+        <source type="git">git://github.com/peterivan/gentoo-overlay.git</source>
+        <feed>https://github.com/peterivan/gentoo-overlay/commits/main.atom</feed>
+  </repo>
+</repositories>
